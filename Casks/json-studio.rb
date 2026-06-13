@@ -16,6 +16,8 @@ cask "json-studio" do
     strategy :github_latest
   end
 
+  depends_on macos: :high_sierra
+
   app "Json Studio.app"
 
   zap trash: [
