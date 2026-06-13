@@ -1,9 +1,9 @@
 cask "json-studio" do
   arch arm: "aarch64", intel: "x64"
 
-  version "1.2.1"
-  sha256 arm:   "f06709af752bce8c71897b459a9ea4c12e7d02bd941d5f1add7c616a6fca5ad8",
-         intel: "f9e806411911bc04b7674c483109c2c22ae9e551d0cab9b351c10f9a180d646f"
+  version "1.3.0"
+  sha256 arm:   "69021ec8d5c7420daad06b71712901c91ae7a5cbc442a2a649dfea0525cdf362",
+         intel: "f91ebbc0abf11f9c407c3325a5b0145e71c7e4eafbddbd3cde7a97841437d175"
 
   url "https://github.com/sundegan/JsonStudio/releases/download/v#{version}/Json.Studio_#{version}_macos_#{arch}.dmg",
       verified: "github.com/sundegan/JsonStudio/"
