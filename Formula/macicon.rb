@@ -5,11 +5,11 @@ class Macicon < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/sundegan/macos-icon-generator/releases/download/v0.1.4/macicon-aarch64-apple-darwin.tar.gz"
-      sha256 "9400cf46ffefd77dc885b40e93de1c14e3345a3aa3dc6f0879006e8c0c2e6030"
+      url "https://github.com/sundegan/macos-icon-generator/releases/download/v1.0.0/macicon-aarch64-apple-darwin.tar.gz"
+      sha256 "771f8f2e0358d306363820c3da588f599a3ce733a83e94a1b7dff9f78a6990af"
     else
-      url "https://github.com/sundegan/macos-icon-generator/releases/download/v0.1.4/macicon-x86_64-apple-darwin.tar.gz"
-      sha256 "a77ccca3e0cb8da4c228947e380d98bcea9f62077bf677e4b4ccf73977740b42"
+      url "https://github.com/sundegan/macos-icon-generator/releases/download/v1.0.0/macicon-x86_64-apple-darwin.tar.gz"
+      sha256 "79aca358521105cc89a3979a57f6a9fad031beec4d51c0b9f01a2fd8c8878679"
     end
   end
 
