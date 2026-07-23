@@ -5,21 +5,21 @@ class MacosIconGenerator < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/sundegan/macos-icon-generator/releases/download/v0.1.1/macos-icon-generator-v0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "0ed8bc6e9fb67362e28230158819bf0de98da5b9376f9a697e53abf35d01e5b0"
+      url "https://github.com/sundegan/macos-icon-generator/releases/download/v0.1.2/macos-icon-generator-v0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "41afcdf0553b18398e5f47be83dbe5522db2c72f2ba7343399277df42516a754"
     else
-      url "https://github.com/sundegan/macos-icon-generator/releases/download/v0.1.1/macos-icon-generator-v0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "faf6d554f7dc23dd2e4b7241ba1584691a8566bbc1ec4d2bfa2d51d2be6f39f0"
+      url "https://github.com/sundegan/macos-icon-generator/releases/download/v0.1.2/macos-icon-generator-v0.1.2-x86_64-apple-darwin.tar.gz"
+      sha256 "f68f05db48a047d67c993169df049a7ab37565b82818ce18b38bb0afd268aab7"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/sundegan/macos-icon-generator/releases/download/v0.1.1/macos-icon-generator-v0.1.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ab08ea75dc0ceb913a526b198510fdd9e50b7813b9fa901b1b2b5a000968418f"
+      url "https://github.com/sundegan/macos-icon-generator/releases/download/v0.1.2/macos-icon-generator-v0.1.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "fb02edeb256d414defe855727a924f0d5a5b4448aa5430df31a753e664179f98"
     else
-      url "https://github.com/sundegan/macos-icon-generator/releases/download/v0.1.1/macos-icon-generator-v0.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "dd4ae32f491f83547800dfbeab03575a54d4f87762d5e7bdd928f97d3dc0d821"
+      url "https://github.com/sundegan/macos-icon-generator/releases/download/v0.1.2/macos-icon-generator-v0.1.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "10a54d3892f07156c1736c80c70e511a9fa1951bc8e3f0c8069d0acb09c806b9"
     end
   end
 
