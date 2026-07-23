@@ -11,12 +11,12 @@ brew install --cask sundegan/tap/json-studio
 ## Install macOS Icon Generator
 
 ```sh
-brew install sundegan/tap/macos-icon-generator
+brew install sundegan/tap/macicon
 ```
 
 ## Available Formulae
 
-- `macos-icon-generator` - Generate macOS-style icons from square SVG, PNG, or JPEG images.
+- `macicon` - Generate macOS-style icons from square SVG, PNG, or JPEG images.
 
 ## Available Casks
 
