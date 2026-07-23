@@ -2,22 +2,20 @@
 
 Homebrew tap for Sundegan apps and tools.
 
-## Install Json Studio
+## Tools
 
-```sh
-brew install --cask sundegan/tap/json-studio
-```
+### [macicon](https://github.com/sundegan/macos-icon-generator)
 
-## Install macOS Icon Generator
+Command-line tool for creating macOS icon resources from a single image and preparing layers for Apple Icon Composer.
 
 ```sh
 brew install sundegan/tap/macicon
 ```
 
-## Available Formulae
+### [JsonStudio](https://github.com/sundegan/JsonStudio)
 
-- `macicon` - Generate macOS-style icons from square SVG, PNG, or JPEG images.
+Fast, local-first desktop workspace for viewing, editing, converting, and validating JSON.
 
-## Available Casks
-
-- `json-studio` - Fast, local-first JSON workspace for everyday development.
+```sh
+brew install --cask sundegan/tap/json-studio
+```
